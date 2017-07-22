@@ -1,0 +1,27 @@
+.container {
+  font-family: monospace;
+  text-align: center;
+  background-color: ivory;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+input {
+  font-family: monospace;
+  font-size: 4em;
+  border: 10px dotted black;
+}
+
+.page-name {
+  color: #555555; /* dark gray */
+  background-color: #f2f2f2; /* light gray */
+}
+
+.color-changer {
+  font-size: 4em;
+  padding: 1em;
+}

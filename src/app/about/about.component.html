@@ -1,0 +1,9 @@
+<div class="container" (keyup)="changeColor()">
+  <div class="page-name">
+    {{pageName}} works!
+  </div>
+  <div class="color-changer" [ngStyle]="{'color': clickColor}">
+    Pick my color!
+  </div>
+  <input [(ngModel)]="colorName">
+</div>
