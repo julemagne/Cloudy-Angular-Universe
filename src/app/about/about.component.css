@@ -13,7 +13,27 @@
 input {
   font-family: monospace;
   font-size: 4em;
-  border: 10px dotted black;
+  text-align: center;
+  border-bottom: 7px dashed black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  animation: blink 1.5s steps(1) infinite;
+}
+
+input:focus {
+  border-color: tan !important;
+  box-shadow: 0 0 13px tan !important;
+  -moz-box-shadow: 0 0 13px tan !important;
+  -webkit-box-shadow: 0 0 13px tan !important;
+  outline-offset: 0px !important;
+  outline: none !important;
+}
+
+@keyframes blink {
+  50% {
+    border-bottom: none;
+  }
 }
 
 .page-name {
